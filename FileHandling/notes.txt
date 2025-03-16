@@ -1,0 +1,22 @@
+Text file: .txt, .docx, .log
+Binary files: .mp4, .mov, .png, .jpeg
+
+
+
+f = open("file_name", "mode")
+                        mode: r -> read
+                        mode: w -> write
+                
+
+data = f.open()
+f.close()
+
+
+
+r -> open for reading(default)
+w -> overwrite and can be written
+x -> create a newfile and open it for writing
+a -> append at the end of the fiel if it exists
+b -> binary mode
+t -> text mode
++ -> open a disk file for updating(reading and writing)

@@ -1,0 +1,14 @@
+pip3 install virtualenv
+
+to create virtual env
+python3 -m venv .venv
+
+to activate:
+source .venv/bin/activate
+
+to make requirements.txt
+1. pip list > requirements.txt
+2. pip freeze > requirements.txt (better)
+
+install: 
+pip install -r requirements.txt 
